@@ -43,7 +43,7 @@ The functions `connect`, `transceive` and `close` more or less directly invoke t
 Add this cordova plugin to your project with the following command:
 
 ```bash
-ionic cordova plugin add https://github.com/noahzarro/NFCLowLevel.git
+ionic cordova plugin add https://github.com/MVREDDY-STI/NFCF.git
 ```
 
 Since it is no official plugin you have to add the `ionic native` wrapper manually. To do that just copy the folder `nfc-low-level` from [this repository](https://github.com/noahzarro/NFCLowLevelIonicNative/tree/master/dist) to the folder `node_modules/@ionic-native`. Then you should be able to use it like a normal ionic native plugin.
